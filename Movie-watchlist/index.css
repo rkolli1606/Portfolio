@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    color:black;
+    height:30vh;
+    width:100vw;
+    background-image: url('images/THJJRUhNlEc.png');
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    
+    height:70vh;
+    width:100vw;
+    
+    display:flex;
+   
+}
+.icon-text{
+    width:90vw;
+    text-align: center;
+    margin:auto;
+}
+
+.icon-text p{
+    margin:0;
+}
+
+header h1,h3{
+    margin:0;
+}
+
+div input,button{
+    margin-left:0;
+    margin-right: 0;
+    
+}
+div input{
+    width:75%;
+    border:none;
+}
+div button{
+    width:25%;
+    /* align-self: stretch; */
+}
+
+#search{
+    width:80%;
+    height:50px;
+    background:#FFFFFF;
+    display:flex;
+    border:1px solid grey;
+    border-radius: 5px;
+    position:absolute;
+    top:22.5vh;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+.search-item1{
+    display:flex;
+    gap:1em;
+    width:75%;
+}
+
+#search img{
+    height:25px;
+    width:25px;
+    align-self: center;
+    padding-left:0.5em;
+}
+
+#content{
+    width:100%;
+    display:flex;
+    margin:3em 1em;
+    gap:5em;
+    align-items: center;
+}
+
+#movie-poster{
+    
+   width:15%;
+   height:30vh; 
+}
+
+.item2{
+    display:flex;
+    gap:2em;
+}
+
+.item2-child3{
+    display:flex;
+    gap:0.7em;
+}
+
+.watchlist-icon{
+    height:20px;
+    width:20%;
+    /* display:block; */
+    /* margin-top:0.5em; */
+}
+hr{
+    border: 1px solid grey;
+}
