@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+//icons
+// @import './node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+// @import './node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+// @import './node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+// @import './node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+a{
+    text-decoration: none;
+    color:none;
+}
+
