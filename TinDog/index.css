@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+*{
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:1em 1em;
+    max-width: 450px;
+}
+
+.logo{
+    width:30%;
+    height:30px;
+}
+.icons{
+    width:10%;
+    height:20px;
+}
+/* Main */
+main{
+    position:relative;
+    color:white;
+    max-width: 450px;
+}
+.teddy{
+    width:100%;
+    height:70vh;
+    padding:0 0.2em;
+    border-radius:10px;
+}
+main div p{
+    margin:0.4em;
+}
+.name-age{
+    font-weight: bold;
+    font-size:1.1em;
+}
+.bio{
+    
+    font-size:0.8em;
+    color:#B7B7B7;
+}
+.img-data{
+    font-size:1rem;
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    /* margin:auto auto; */
+}
+.badge-like,.badge-nope{
+    position: absolute;
+    width:100px;
+    height:40px;
+    top:30px;
+    bottom:0;
+    left:7px;
+    right:0;
+    transform: rotate(-40deg);
+}
+
+/* footer */
+footer{
+    display:flex;
+    gap:1em;
+    justify-content:center;
+    align-items: center;
+    padding-top:1em;
+    max-width: 450px;
+}
+.footer-icon{
+    background:#ffffff;
+    width:20%;
+    height:50px;
+    border-radius:100%;
+    padding:1em 1.2em;
+    border: none;
+    /* display:flex; */
+}
+
+.icon{
+    width:100%;
+    height:20px;
+    /* text-align: center; */
+
+}
+#heart-icon:hover{
+    background:#DBFFF4;
+    /* background: linear-gradient(228.9deg, #00D894 10.21%, #56E9CD 71.53%); */
+}
+#cross-icon:hover{
+    background:#FFE7EF;
+    /* background: linear-gradient(228.9deg, #00D894 10.21%, #56E9CD 71.53%); */
+}
+
