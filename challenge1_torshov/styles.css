@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    /* border:2px solid green; */
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100px;
+}
+.hero-section{
+    background-image:url("images/torshov.jpg");
+    background-size:cover;
+    width:100%;
+    height:300px;
+    /* border:none; */
+    /* border:2px solid blue; */
+    /* width:100%; */
+    /* height:85vh; */
+    
+   
+    margin:0px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:none; */
+}
+
+.visit-tor{
+    
+    border:1px solid #457B9D;
+    margin:0px auto 20px auto;
+    background: #457B9D ;
+    border-radius:5px;
+    color:white;
+    /* height:50px; */
+    width:200px;
+    font-size:30px;
+   /* padding: */
+}
+.h2-hero{
+    /* height: */
+    /* height:70px; */
+    width:500px;
+    border:1px solid #1D3557;
+    margin:0px auto 0 auto;
+    background: #1D3557 ;
+    border-radius:5px;
+    color:white;
+    font-size:25px;
+    padding:5px 10px 5px 10px;
+}
+.activity-section{
+    background:#F1FAEE;
+    width:100%;
+    height:390px;
+    /* display:flex; */
+    margin:0 0 0px 0;
+    border:2px solid green;
+    
+}
+.h2-activity{
+    padding:10px 0 20px 0;
+}
+.flex-activity{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+
+.flex-img{
+    border-radius:100%;
+    height:100px;
+    
+}
+.flex-act-item{
+    width:150px;
+}
+.flex-act-item-h3{
+    width:175px;
+}
+
+.guide-section{
+    /* baxckground:#F1FAEE; */
+    width:100%;
+    height:300px;
+    border:2px solid blue;
+    
+}
+
+.card{
+    width:450px;
+    height:200px;
+   background: #A8DADC;
+    margin:40px auto;
+    border-bottom:3px solid blue;
+    display:flex;
+}
+#per-img{
+    width:150px;
+   padding:10px 20px;
+   border-radius:18%;
+}
+
+.card-child2{
+    padding:0 26px;
+    
+}
+.card-child2-p{
+    font-style:italic;
+}
