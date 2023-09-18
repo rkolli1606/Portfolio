@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+#hero{
+    width:100%;
+    height:300px;
+    background:#6943FF;
+    text-align: center;
+    color:white;
+    padding:1px;
+}
+input{
+    display:block;
+    margin:5px auto;
+    height: 60px;
+    width:20%;
+    background:#6943FF;
+    border:2px solid #B295FF;
+    border-radius: 5px;
+    color:white;
+    font-size:60px;
+    font-weight: bold;
+    padding:10px 20px;
+}
+.convert-btn{
+    height: 50px;
+    width:20%;
+    color:balck;
+    background:white;
+    border:none;
+    border-radius: 5px;
+    margin-top:15px;
+    font-size:30px;
+    font-weight: bold;
+}
+.conversion-container{
+    background: #F4F4F4;
+    padding:1px;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-eve; */
+    /* align-items: center; */
+}
+.item{
+    max-width:100%;
+    height:100px;
+    background: white;
+    margin:10px;
+    
+     padding: 10px 10px;
+     box-sizing: border-box;
+    text-align: center;
+    padding-top:10px ;
+    margin:20px 10px; 
+    font-weight: bold;
+    color:#5A537B;
+    letter-spacing: 1px;
+}
+div p{
+    color:#353535;
+    font-weight:normal;
+}
